@@ -9,10 +9,13 @@ CVI has seen numerous revisions, each with the intent of improving the detection
 The below methods assume that a typical tri-band visible sensor (RGB) is being used with a full-spectrum conversion alongside the application of either an internal or external KolariVision Infrared Blue/NIR NDVI filter.
 
 **Linear Averaging**  
-(R + G + B) / 3  
+((R + G + B)) / 3
+
+`((R + G + B)) / 3`
+<script type="text/javascript" src="https://www.hostmath.com/Math/MathJax.js?config=OK"></script>
 
 **CVI: Version 1**  
-((R + G) - (B) / (R + G) + (B)) / 3
+(((R + G) - (B)) /( (R + G) + (B))) / 3
 
 **CVI: Version 2**  
 ((((R + G)/2) - B))/((((R +G)/2) + B))
