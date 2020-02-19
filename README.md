@@ -26,8 +26,8 @@ The below methods assume that a typical tri-band visible sensor (RGB) is being u
 **CVI: Version 5**  
 1/((((R + B) - (G)) / ((R + B) + (G))))
 
-**CVI: Version 6**
+**CVI: Version 6**  
 ((R + G) - (2 * B)) / ((R + B) + (2 * B))
 
-**CVI: Version 7**
+**CVI: Version 7**  
 ((R + B) - (G) / ((R + B) + (G))) / 3
