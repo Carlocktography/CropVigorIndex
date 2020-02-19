@@ -11,9 +11,6 @@ The below methods assume that a typical tri-band visible sensor (RGB) is being u
 **Linear Averaging**  
 ((R + G + B)) / 3
 
-`((R + G + B)) / 3`
-<script type="text/javascript" src="https://www.hostmath.com/Math/MathJax.js?config=OK"></script>
-
 **CVI: Version 1**  
 (((R + G) - (B)) /( (R + G) + (B))) / 3
 
