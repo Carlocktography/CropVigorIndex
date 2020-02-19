@@ -1,9 +1,11 @@
 # CropVigorIndex
+
 CVI is a derived multi-spectral index for usage with the KolariVision Infrared Blue/NIR NDVI filter (and similar). It is intended to closely parallel the values of leaf-level NDVI (e.g. GreenSeeker), though it currently does not occupy the same domain of values.
 
 CVI has seen numerous revisions, each with the intent of improving the detection of Crop Vigor, especially against bare soil.
 
 # Comparison of methods
+
 The below methods assume that a typical tri-band visible sensor (RGB) is being used with a full-spectrum conversion alongside the application of either an internal or external KolariVision Infrared Blue/NIR NDVI filter.
 
 **Linear Averaging**  
