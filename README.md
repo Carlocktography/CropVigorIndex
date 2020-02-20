@@ -24,36 +24,48 @@ The below methods assume that a typical tri-band visible sensor (RGB) is being u
 
 **Linear Averaging**  
 ((R + G + B)) / 3
+![](thumbs/linear.png)
 
 **CVI: Version 1**  
 ((R + B) - (G) / (R + B) + (G)) / 3
+![](thumbs/cvi_v1.png)
 
 **CVI: Version 2**  
 ((R + G) - (B) / (R + G) + (B)) / 3
+![](thumbs/cvi_v2.png)
 
 **CVI: Version 3**  
 1/((((R + B) - (G)) / ((R + B) + (G))) / 3)
+![](thumbs/cvi_v3.png)
 
 **CVI: Version 4**  
 ((((R + G)/2) - B))/((((R + G)/2) + B))
+![](thumbs/cvi_v4.png)
 
 **CVI: Version 5**  
 1/((((R + B) - (G)) / ((R + B) + (G))))
+![](thumbs/cvi_v5.png)
 
 **CVI: Version 6**  
 ((R + G) - (2 * B)) / ((R + B) + (2 * B))
+![](thumbs/cvi_v6.png)
 
 **CVI: Version 7**  
 ((R + B) - (G) / ((R + B) + (G))) / 3
+![](thumbs/cvi_v7.png)
 
 **CVI: Version 8**  
 ((((R + B)/2) - G))/((((R + B)/2) + G))
+![](thumbs/cvi_v8.png)
 
 **CVI: Version 9**  
 ((((R + B) - (G)) / ((R + B) + (G))) / 3)
+![](thumbs/cvi_v9.png)
 
 **CVI: Version 10**  
 (R + B) - ((G) / ((R + B) + (G))) / 3
+![](thumbs/cvi_v10.png)
 
 **CVI: Version 11**  
 ((R + B) + (G)) / ((R + B) - (G))  
+![](thumbs/cvi_v11.png)
